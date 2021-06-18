@@ -1701,6 +1701,23 @@ section {
   background: #f51f9c;
 }
 
+.services .service-box.pink {
+  border-bottom: 3px solid #f51f9c;
+}
+
+.services .service-box.pink .icon {
+  color: #f51f9c;
+  background: #feecf7;
+}
+
+.services .service-box.pink .read-more {
+  color: #f51f9c;
+}
+
+.services .service-box.pink:hover {
+  background: #f51f9c;
+}
+
 .services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
   color: #fff;
 }
@@ -1709,11 +1726,50 @@ section {
   background: #fff;
 }
 
+/* added services */
+.services .service-box.cyan {
+  border-bottom: 3px solid #1fdcf5;
+}
+
+.services .service-box.cyan .icon {
+  color: #1fdcf5;
+  background: #feecf7;
+}
+
+.services .service-box.cyan .read-more {
+  color: #1fdcf5;
+}
+
+.services .service-box.cyan:hover {
+  background: #1fdcf5;
+}
+
+.services .service-box.neon {
+  border-bottom: 3px solid #d3fa6a;
+}
+
+.services .service-box.neon .icon {
+  color: #d3fa6a;
+  background: #feecf7;
+}
+
+.services .service-box.neon .read-more {
+  color: #d3fa6a;
+}
+
+.services .service-box.neon:hover {
+  background: #d3fa6a ;
+}
+
 /* Countries */
 .card{
   margin: 50px;
 }
-
+.country-text{
+  margin: 30px;
+  text-align: justify;
+  font-weight: 450;
+}
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
