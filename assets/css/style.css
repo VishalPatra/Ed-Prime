@@ -1804,3 +1804,11 @@ section {
   padding: 0 0 25px 0;
   border: 0;
 }
+
+/* Mobile CSS*/
+@media (max-witdh: 600px)
+{
+  footer{
+    text-align: center;
+  }
+}
