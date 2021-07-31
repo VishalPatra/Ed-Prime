@@ -89,7 +89,7 @@
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
-    speed: 600,
+    speed: 100,
     loop: true,
     autoplay: {
       delay: 5000,
@@ -118,10 +118,10 @@
    * Testimonials slider
    */
    new Swiper('.country-slider', {
-    speed: 600,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 500,
+      delay: 1000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -132,12 +132,12 @@
     },
     breakpoints: {
       320: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 0
       },
 
       1200: {
-        slidesPerView: 10,
+        slidesPerView: 4,
         spaceBetween: 0
       }
     }
