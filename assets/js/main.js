@@ -32,7 +32,6 @@
       }
     }
   }
-
   /**
    * Easy on scroll event listener 
    */
@@ -157,3 +156,6 @@
   });
 
 })()
+/* Developer SCript*/
+var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
+myModal.toggle()
